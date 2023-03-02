@@ -19,12 +19,6 @@ struct binary_tree_s *right;
  * @height: height of a subtree
  * @is_AVL: 0 if balance factor of subtree is < -1 or > 1; 1 otherwise
  */
-typedef struct avl_data_s
-{
-int height;
-int is_AVL;
-}
-avl_data_t;
 typedef struct binary_tree_s binary_tree_t;
 typedef struct binary_tree_s bst_t;
 typedef struct binary_tree_s avl_t;
