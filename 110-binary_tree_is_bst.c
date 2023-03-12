@@ -13,7 +13,7 @@ if (tree != NULL)
 {
 if (tree->n < lo || tree->n > hi)
 return (0);
-return (is_bst_helper(tree->left, lo, tree->n - 1) 
+return (is_bst_helper(tree->left, lo, tree->n - 1)
 && is_bst_helper(tree->right, tree->n + 1, hi));
 }
 return (1);
