@@ -19,7 +19,7 @@ return (is_bst_helper(tree->left, lo, tree->n - 1)
 return (1);
 }
 /**
- * binary_tree_is_bst - checks if a binary tree is a valid Binary Search Tree
+ * binary_tree_is_bst - checks if a binary tree is a valid
  * @tree: apointer to rood node of the tree to cheack
  * Return: 1 if tree is valid BST, and 0 otherwise
  */
