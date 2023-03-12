@@ -23,7 +23,7 @@ return ((l > r) ? l : r);
 }
 }
 /**
- * binary_tree_balance - function that measures the balance factor of a binary tree
+ * binary_tree_balance - function that measures the balance factor
  * @tree: tree to go through
  * Return: balanced factor
  */
