@@ -1,8 +1,8 @@
 #include "binary_trees.h"
 /**
- * tree_is_perfect - function that says if a tree is perfect or not
+ * tree_is_perfect - that says if a tree is perfect or not
  * @tree: tree to check
- * Return: 0 if it is not a perfect or other number that is the leavel of height
+ * Return: 0 if it is not a perfect or other number
  */
 int tree_is_perfect(const binary_tree_t *tree)
 {

@@ -13,12 +13,13 @@ if (tree != NULL)
 {
 if (tree->n < lo || tree->n > hi)
 return (0);
-return (is_bst_helper(tree->left, lo, tree->n - 1) && is_bst_helper(tree->right, tree->n + 1, hi));
+return (is_bst_helper(tree->left, lo, tree->n - 1) 
+&& is_bst_helper(tree->right, tree->n + 1, hi));
 }
 return (1);
 }
 /**
- * binary_tree_is_bst - function that checks if a binary tree is a valid Binary Search Tree
+ * binary_tree_is_bst - checks if a binary tree is a valid Binary Search Tree
  * @tree: apointer to rood node of the tree to cheack
  * Return: 1 if tree is valid BST, and 0 otherwise
  */
